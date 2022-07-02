@@ -1,4 +1,4 @@
-export const Header = () => {
+const Header = () => {
   return (
     <>
       <header className="text-gray-600 body-font">
@@ -42,3 +42,5 @@ export const Header = () => {
     </>
   );
 };
+
+export default Header;
