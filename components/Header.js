@@ -22,7 +22,7 @@ const Header = () => {
               <a className="mr-5 hover:text-gray-900">Contact</a>
             </Link>
           </nav>
-          <Toggle />
+          {/* <Toggle /> */}
         </div>
       </header>
     </>
