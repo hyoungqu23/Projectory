@@ -9,7 +9,7 @@ const ProjectsItem = ({ project }) => {
         className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative"
       >
         <Image
-          src={project.cover.external.url}
+          src={project.cover.external?.url || project.cover.file.url}
           loading="lazy"
           alt="Photo by Minh Pham"
           layout="fill"
