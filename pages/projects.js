@@ -17,30 +17,6 @@ const Projects = ({ projects }) => {
           content="Projectory - 꾸준히 무엇인가를 만드는 원동력이 되는 프로젝트를 확인해보세요!"
         />
 
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://projectory-ochre.vercel.app/"
-        />
-        <meta property="og:title" content="Projectory" />
-        <meta
-          property="og:description"
-          content="Projectory - 꾸준히 무엇인가를 만드는 원동력이 되는 프로젝트를 확인해보세요!"
-        />
-        <meta property="og:image" content="../public/img.jpg" />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://projectory-ochre.vercel.app/"
-        />
-        <meta property="twitter:title" content="Projectory" />
-        <meta
-          property="twitter:description"
-          content="Projectory - 꾸준히 무엇인가를 만드는 원동력이 되는 프로젝트를 확인해보세요!"
-        />
-        <meta property="twitter:image" content="../public/img.jpg" />
-
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-white py-6 sm:py-8 lg:py-12">
