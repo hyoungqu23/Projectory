@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import Head from 'next/head';
-import Layout from '../components/Layout';
+import Layout from '../components/UI/Layout';
 import ProjectsItem from '../components/Projects/ProjectsItem';
 
 import { DATABASE_ID, TOKEN_ID } from '../config';

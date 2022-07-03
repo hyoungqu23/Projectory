@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout from '../components/Layout';
+import Layout from '../components/UI/Layout';
 import Hero from '../components/Home/Hero';
 import Animation from '../components/Home/Animation';
 

@@ -1,11 +1,11 @@
-import { ThemeProvider } from 'next-themes';
-import '../styles/globals.css';
+import React from 'react';
+import Layout from '../components/UI/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="class">
+    <Layout>
       <Component {...pageProps} />
-    </ThemeProvider>
+    </Layout>
   );
 }
 
