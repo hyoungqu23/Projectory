@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Toggle from './Toggle';
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
               <a className="mr-5 hover:text-gray-900">Contact</a>
             </Link>
           </nav>
+          <Toggle />
         </div>
       </header>
     </>
