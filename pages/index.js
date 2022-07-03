@@ -26,10 +26,7 @@ export default function Home() {
           property="og:description"
           content="Projectory - 꾸준히 무엇인가를 만드는 원동력이 되는 프로젝트를 확인해보세요!"
         />
-        <meta
-          property="og:image"
-          content="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&q=80&cs=tinysrgb&fm=jpg&crop=entropy"
-        />
+        <meta property="og:image" content="../public/img.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -41,10 +38,7 @@ export default function Home() {
           property="twitter:description"
           content="Projectory - 꾸준히 무엇인가를 만드는 원동력이 되는 프로젝트를 확인해보세요!"
         />
-        <meta
-          property="twitter:image"
-          content="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&q=80&cs=tinysrgb&fm=jpg&crop=entropy"
-        />
+        <meta property="twitter:image" content="../public/img.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
